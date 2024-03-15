@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista músicas</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <h1>Playlist</h1>
+    <div id="dados">
+        <p id="perfil"></p>
+        <p id="foto"></p>
+
+        <button type="button" id="btnSair">Sair</button>
+    </div>
+
+    <div id="playlist">
+    <table class="table" id="listaMusicas">
+        <thead>
+            <tr><th>Faixa</th> <th>Artista</th> <th>Estrelas</th><th>Álbum</th></tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="config.js"></script>
+    <script src="session.js"></script>
+    <script src="lista.js"></script>
+</body>
+</html>
